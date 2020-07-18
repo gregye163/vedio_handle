@@ -1,5 +1,7 @@
 
 编译命令:
+环境需要依赖opencv库
+
 gcc -o test opencv_imgproc.cpp -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_videoio -lstdc++
 
 gcc -o test1 opencv_imgproc1.cpp -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_videoio -lstdc++
